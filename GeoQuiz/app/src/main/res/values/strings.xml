@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_1">Столица Турции - Константинополь</string>
+    <string name="question_2">Тихий океан больше, чем Атлантический</string>
+    <string name="question_3">Суэцкий канал соединяет Красное море\n с Индийским океаном</string>
+    <string name="question_4">Река Нил начинается в Египте</string>
+    <string name="question_5">Мадагаскар это остров</string>
+    <string name="question_6">Англия является членом Европейского союза</string>
+    <string name="question_7">Украина имеет выход в океан</string>
+    <string name="question_8">Вашингтон это штат</string>
+    <string name="question_9">Атлантический океан самый глубокий в мире</string>
+    <string name="question_10">Самая высокая гора в мире находится в Крыму</string>
+    <string name="button_true">Это правда</string>
+    <string name="button_false">Это ложь</string>
+    <string name="button_next">Следующий</string>
+    <string name="button_prev">Предыдущий</string>
+    <string name="toast_true">Вы ответили правильно!</string>
+    <string name="toast_false">Вы ответили неправильно!</string>
+</resources>
