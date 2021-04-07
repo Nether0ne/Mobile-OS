@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start">Введение в дисциплину</string>
+    <string name="start_content">Пример теоритического материала №1</string>
+    <string name="end">Окончание дисциплины</string>
+    <string name="end_content">Пример теоритического материала №2</string>
+</resources>

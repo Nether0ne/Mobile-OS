@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test1_question1">2 + 2 = ?</string>
+    <string name="test1_question_1_answer1">3</string>
+    <string name="test1_question_1_answer2">5</string>
+    <string name="test1_question_1_answer3">4</string>
+    <string name="test1_question_1_answer4">6</string>
+
+    <string name="test1_question2">5 - 2 = ?</string>
+    <string name="test1_question_2_answer1">3</string>
+    <string name="test1_question_2_answer2">5</string>
+    <string name="test1_question_2_answer3">4</string>
+    <string name="test1_question_2_answer4">6</string>
+
+    <string name="test1_question3">10 - 5 = ?</string>
+    <string name="test1_question_3_answer1">3</string>
+    <string name="test1_question_3_answer2">5</string>
+    <string name="test1_question_3_answer3">4</string>
+    <string name="test1_question_3_answer4">6</string>
+
+    <string name="test1_question4">1 + 1 = ?</string>
+    <string name="test1_question_4_answer1">1</string>
+    <string name="test1_question_4_answer2">3</string>
+    <string name="test1_question_4_answer3">4</string>
+    <string name="test1_question_4_answer4">2</string>
+
+    <string name="test2_question1">13 + 8 = ?</string>
+    <string name="test2_question_1_answer1">25</string>
+    <string name="test2_question_1_answer2">17</string>
+    <string name="test2_question_1_answer3">21</string>
+    <string name="test2_question_1_answer4">22</string>
+
+    <string name="test2_question2">29 - 11 = ?</string>
+    <string name="test2_question_2_answer1">17</string>
+    <string name="test2_question_2_answer2">20</string>
+    <string name="test2_question_2_answer3">19</string>
+    <string name="test2_question_2_answer4">18</string>
+
+    <string name="test2_question3">11 - 10 = ?</string>
+    <string name="test2_question_3_answer1">10</string>
+    <string name="test2_question_3_answer2">1</string>
+    <string name="test2_question_3_answer3">3</string>
+    <string name="test2_question_3_answer4">2</string>
+
+    <string name="test2_question4">0 + 22 = ?</string>
+    <string name="test2_question_4_answer1">23</string>
+    <string name="test2_question_4_answer2">22</string>
+    <string name="test2_question_4_answer3">21</string>
+    <string name="test2_question_4_answer4">20</string>
+</resources>

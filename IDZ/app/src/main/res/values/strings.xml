@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IDZ</string>
+    <string name="material">Теоритический материал</string>
+    <string name="tasks">Задания</string>
+    <string name="results">Результаты</string>
+    <string name="status">Пройдено</string>
+    <string name="test_start">Начать тест</string>
+    <string name="test_passed">Тест пройден</string>
+    <string name="next_question">Следующий вопрос</string>
+    <string name="test_end">Закончить тест</string>
+    <string name="back">Назад</string>
+</resources>
