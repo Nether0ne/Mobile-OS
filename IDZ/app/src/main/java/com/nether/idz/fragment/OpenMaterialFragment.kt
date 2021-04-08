@@ -2,7 +2,6 @@ package com.nether.idz.fragment
 
 import android.app.Activity
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -71,7 +70,7 @@ class OpenMaterialFragment(private val material: Material? = null, private var i
             Save.materials[index].test = t
             // Reload fragment
             activity?.supportFragmentManager?.beginTransaction()?.detach(this)?.attach(this)?.commit()
-            Toast.makeText(context, "Тест завершен! Оценка: " + Save.getTestGrade(index), Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "Тест завершен! Оценка: " + Save.getTestMark(index), Toast.LENGTH_SHORT).show()
         } else {
             Toast.makeText(context, "Тест завершен до окончания", Toast.LENGTH_SHORT).show()
         }

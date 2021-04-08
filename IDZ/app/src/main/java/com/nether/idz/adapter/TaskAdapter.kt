@@ -11,11 +11,10 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.core.view.isVisible
 import com.nether.idz.R
-import com.nether.idz.entity.Material
 import com.nether.idz.entity.Save
-import kotlin.collections.ArrayList
+import com.nether.idz.entity.Task
 
-class MaterialAdapter(private val context: Context?, private val items: ArrayList<Material>)
+class TaskAdapter(private val context: Context?, private val items: ArrayList<Task>)
     : BaseAdapter() {
     override fun getCount(): Int {
         return items.size
@@ -32,21 +31,21 @@ class MaterialAdapter(private val context: Context?, private val items: ArrayLis
     @RequiresApi(Build.VERSION_CODES.O)
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         var cView = convertView
-        cView = LayoutInflater.from(context).inflate(R.layout.fragment_material, parent, false)
+        cView = LayoutInflater.from(context).inflate(R.layout.fragment_task, parent, false)
 
-        val currentMaterial = getItem(position) as Material?
+        val currentTask = getItem(position) as Task?
 
-        val materialTitle = cView.findViewById<View>(R.id.taskTitle) as TextView
-        materialTitle.text = this.context?.resources?.getText(currentMaterial?.title!!)
+        val taskTitle = cView.findViewById<View>(R.id.taskTitle) as TextView
+        taskTitle.text = this.context?.resources?.getText(currentTask?.title!!)
 
         val statusCheckBox = cView.findViewById<View>(R.id.statusCheckBox) as CheckBox
-        statusCheckBox.isChecked = currentMaterial?.test?.done!!
+        statusCheckBox.isChecked = currentTask?.userAnswer != null
         statusCheckBox.text = this.context?.resources?.getText(R.string.status)
         statusCheckBox.isEnabled = false
 
         val mark = cView.findViewById<View>(R.id.textMark) as TextView
-        if (currentMaterial.test?.done!!) {
-            mark.text = Save.getTestMark(position).toString() + " / " + Save.getTestMaxMark(position)
+        if (currentTask?.userAnswer != null) {
+            mark.text = Save.getTaskMark(position).toString() + " / " + Save.getTaskMaxMark(position)
         } else {
             mark.isVisible = false
         }

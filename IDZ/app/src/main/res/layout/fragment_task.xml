@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/materialTitle"
+        android:id="@+id/taskTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -15,7 +15,7 @@
         android:textAllCaps="true"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:text="@string/material" />
+        tools:text="@string/tasks" />
 
     <CheckBox
         android:id="@+id/statusCheckBox"
@@ -26,4 +26,12 @@
         tools:text="@string/status"
         android:layoutDirection="rtl"
         android:paddingEnd="30sp" />
+
+    <TextView
+        android:id="@+id/textMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/results"
+        android:textSize="16sp" />
 </androidx.appcompat.widget.LinearLayoutCompat>

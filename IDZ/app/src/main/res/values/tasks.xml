@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task1_title">Задание 1</string>
+    <string name="task1_description">Решите следующие примеры:\n
+        2 + 8\n
+        3 + 4\n
+        9 - 4\n
+        8 - 7
+    </string>
+    <string name="task1_answer1">10</string>
+    <string name="task1_answer2">7</string>
+    <string name="task1_answer3">5</string>
+    <string name="task1_answer4">1</string>
+
+    <string name="task2_title">Задание 2</string>
+    <string name="task2_description">Решите следующие примеры:\n
+        22 + 8\n
+        23 + 14\n
+        90 - 45\n
+        99 - 88
+    </string>
+    <string name="task2_answer1">30</string>
+    <string name="task2_answer2">37</string>
+    <string name="task2_answer3">45</string>
+    <string name="task2_answer4">11</string>
+</resources>
